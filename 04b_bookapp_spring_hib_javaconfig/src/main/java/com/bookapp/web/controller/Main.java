@@ -14,8 +14,6 @@ public class Main {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BookConfig.class);
 		
 		BookService service = (BookService) ctx.getBean("bookService");
-		
-		System.out.println("Hii");
 		for(Book book : service.getAllBooks()) {
 			System.out.println(book);
 		}

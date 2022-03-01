@@ -18,16 +18,16 @@
 	
 	<bean id="b1" class="com.bookapp.model.dao.Book">
 		<property name="id" value="01"/>
-		<property name="isbn" value="ABC123"/>
-		<property name="title" value="Head First Java"/>
-		<property name="author" value="Katthy"/>
-		<property name="price" value="600"/>
+		<property name="isbn" value="123"/>
+		<property name="title" value="Complete Jav Reference"/>
+		<property name="author" value="abc"/>
+		<property name="price" value="200"/>
 	</bean>
 	<bean id="b2" class="com.bookapp.model.dao.Book">
 		<property name="id" value="02"/>
-		<property name="isbn" value="ABC723"/>
-		<property name="title" value="Servlet JSP Java"/>
-		<property name="author" value="Katthy"/>
+		<property name="isbn" value="121"/>
+		<property name="title" value="Spring"/>
+		<property name="author" value="xyz"/>
 		<property name="price" value="700"/>
 	</bean>
 </beans>
