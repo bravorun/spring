@@ -9,7 +9,7 @@ import com.bookapp.model.service.BookService;
 
 public class Main {
 	public static void main(String[] args) {
-		ApplicationContext ctx =  new ClassPathXmlApplicationContext("book.xml");
+		ApplicationContext ctx =  new ClassPathXmlApplicationContext("spring-cfg.xml");
 		
 		BookService service = (BookService) ctx.getBean("bookService");
 		

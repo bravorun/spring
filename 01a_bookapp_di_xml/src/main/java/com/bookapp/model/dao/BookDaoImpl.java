@@ -9,8 +9,8 @@ public class BookDaoImpl implements BookDao {
 	private static Map<Integer, Book> booksMap = new HashMap<Integer, Book>();
 	private static int counter = 0;
 	static {
-		booksMap.put(++counter, new Book(counter, "ABC123", "Head first Java" , "Katthy", 600));
-		booksMap.put(++counter,  new Book(counter, "ABC723", "Servlet jsp Java" , "Katthy", 700));
+		booksMap.put(++counter, new Book(counter, "ABC123", "Java Complete Reference" , "abc", 400));
+		booksMap.put(++counter,  new Book(counter, "ABC723", "Spring " , "xyz", 700));
 	}
 	public List<Book> getAllBooks() {
 		return new ArrayList<Book>(booksMap.values());

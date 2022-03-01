@@ -51,10 +51,9 @@ public class Book {
 		}
 		@Override
 		public String toString() {
-			StringBuilder builder = new StringBuilder();
-			builder.append("Book [id=").append(id).append(", isbn=").append(isbn).append(", title=").append(title)
-					.append(", author=").append(author).append(", price=").append(price).append("]");
-			return builder.toString();
+			return "Book [id=" + id + ", isbn=" + isbn + ", title=" + title + ", author=" + author + ", price=" + price
+					+ "]";
 		}
+		
 		
 }
